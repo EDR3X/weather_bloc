@@ -64,11 +64,12 @@ class _SearchPageState extends State<SearchPage> {
               height: 22,
             ),
             ElevatedButton(
-                onPressed: _submit,
-                child: const Text(
-                  "How's Weather",
-                  style: TextStyle(fontSize: 20.0),
-                ))
+              onPressed: _submit,
+              child: const Text(
+                "How's Weather",
+                style: TextStyle(fontSize: 20.0),
+              ),
+            )
           ],
         ),
       ),

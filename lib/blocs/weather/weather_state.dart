@@ -18,9 +18,10 @@ class WeatherState extends Equatable {
   });
 
   factory WeatherState.initial() => WeatherState(
-      status: WeatherStatus.initial,
-      weather: Weather.initial(),
-      error: const CustomError());
+        status: WeatherStatus.initial,
+        weather: Weather.initial(),
+        error: const CustomError(),
+      );
 
   @override
   List<Object> get props => [status, weather, error];
